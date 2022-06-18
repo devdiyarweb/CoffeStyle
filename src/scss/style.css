@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 940px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  display: flex;
+  gap: 67px;
+}
+.header-nav a img {
+  padding: 28px 0;
+}
+.header-nav__cart {
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1D1F2E;
+  padding: 0 10px;
+  font-size: 14px;
+  font-family: "Karla", sans-serif;
+  text-decoration: none;
+}
+.header-nav__cart i {
+  font-size: 15px;
+}
+.header-nav__list {
+  display: flex;
+  list-style: none;
+  gap: 22.5px;
+  align-items: center;
+}
+.header-nav__list-link {
+  text-decoration: none;
+  color: black;
+  font-family: Karla, sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1D1F2E;
+  font-size: 12px;
+}
+.header-nav__list-link:hover {
+  background: rgba(162, 95, 75, 0.2);
+}
+.header-nav__list div {
+  padding: 10px;
+  border-radius: 10px;
+}
+.header-nav__list div:hover {
+  background: rgba(162, 95, 75, 0.2);
+  border-bottom: 2px rgba(162, 95, 75, 0.3019607843) solid;
+}
+.header-nav__list div:hover i {
+  color: rgba(162, 95, 75, 0.8);
+}
+.header-content {
+  background: url("@img/header__content.svg");
+}/*# sourceMappingURL=style.css.map */
